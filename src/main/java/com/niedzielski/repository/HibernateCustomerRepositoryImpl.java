@@ -7,9 +7,6 @@ import com.niedzielski.model.Customer;
 
 public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 
-	/* (non-Javadoc)
-	 * @see com.niedzielski.repository.CustomerRepsitory#findAll()
-	 */
 	@Override
 	public List<Customer> findAll() {
 		List<Customer> customers = new ArrayList<>();
